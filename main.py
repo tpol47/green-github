@@ -20,7 +20,7 @@ f.close()
 subprocess.run(["git", "add", "."])
 
 # Git Commit
-subprocess.run(["git", "commit", "-m", "\"Updated text.txt\""])
+subprocess.run(["git", "commit", "-m", "Updated text.txt"])
 
 # Git Push
 subprocess.run(["git", "push"])
