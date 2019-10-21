@@ -1,6 +1,5 @@
 import datetime
 import subprocess
-import os
 
 # path to directory
 path = "C:\\Users\\Nick\\Documents\\VS Code\\GreenGitHub
