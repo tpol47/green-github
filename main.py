@@ -7,19 +7,20 @@ path = "C:\\Users\\Nick\\Documents\\VS Code\\GreenGitHub\\text.txt"
 # gets current time and date at execution time
 content = str(datetime.datetime.now())
 
-print("---- Git Status ----")
-subprocess.run(["git", "status"])
+# Discard changes and pull from master
+subprocess.run(["git", "reset", "--hard", "origin/master"])
+subprocess.run(["git", "pull", "origin", "master"])
 
-print("---- Git Pull ----")
-subprocess.run(["git", "pull"])
-
-print("---- Editing File ----")
+# Edit text file
 f=open(path, "w")
 f.write(content)
 f.close()
 
-print("---- Git Add ----")
+# Git Add
 subprocess.run(["git", "add", "."])
 
-print("---- Git Commit ----")
+# Git Commit
 subprocess.run(["git", "commit", "-m", "\"Updated text.txt\""])
+
+# Git Push
+subprocess.run(["git", "push"])
