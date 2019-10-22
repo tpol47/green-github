@@ -2,7 +2,7 @@ import datetime
 import subprocess
 
 # path to directory
-path = "C:\\Users\\Nick\\Documents\\VS Code\\GreenGitHub
+path = "C:\\Users\\Nick\\Documents\\VS Code\\GreenGitHub"
 
 # path to file
 file_path = "C:\\Users\\Nick\\Documents\\VS Code\\GreenGitHub\\text.txt"
