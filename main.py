@@ -1,5 +1,6 @@
 import datetime
 import subprocess
+import random
 
 # path to directory
 path = "C:\\Users\\Nick\\Documents\\VS Code\\GreenGitHub"
@@ -7,23 +8,33 @@ path = "C:\\Users\\Nick\\Documents\\VS Code\\GreenGitHub"
 # path to file
 file_path = "C:\\Users\\Nick\\Documents\\VS Code\\GreenGitHub\\text.txt"
 
-# gets current time and date at execution time
-content = str(datetime.datetime.now())
+# Set max to one for a single commit on each run or 
+# randomly generate a max number of commits each run
+max = 1
+# max = random.randint(1,5)
 
-# Discard changes and pull from master
-subprocess.run(["git", "reset", "--hard", "origin/master"])
-subprocess.run(["git", "pull", "origin", "master"])
+i = 0
+while i < max:
 
-# Edit text file
-f=open(file_path, "w")
-f.write(content)
-f.close()
+    # gets current time and date at execution time
+    content = str(datetime.datetime.now())
 
-# Git Add
-subprocess.run(["git", "add", "."])
+    # Discard changes and pull from master
+    subprocess.run(["git", "reset", "--hard", "origin/master"])
+    subprocess.run(["git", "pull", "origin", "master"])
 
-# Git Commit
-subprocess.run(["git", "commit", "-m", "Updated text.txt"])
+    # Edit text file
+    f=open(file_path, "w")
+    f.write(content)
+    f.close()
 
-# Git Push
-subprocess.run(["git", "push"])
+    # Git Add
+    subprocess.run(["git", "add", "."])
+
+    # Git Commit
+    subprocess.run(["git", "commit", "-m", "Updated text.txt"])
+
+    # Git Push
+    subprocess.run(["git", "push"])
+
+    i += 1
