@@ -1,6 +1,6 @@
 # GreenGitHub
 Simple Python script that performs git operations. <br/>
-Process:
+Process: <br/>
 Discards all remote changes and pulls from master <br/>
 Rewrites a text file with current datetime <br/>
 Commits updated file to git repository <br/>
