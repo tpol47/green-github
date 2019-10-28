@@ -16,4 +16,4 @@ Python script that performs git operations. Schedule a daily run of this script 
 **Windows PowerShell:** <br/>
 -> Schedule a daily run with a PowerShell script <br/>
 **Jenkins:** <br/>
--> See implementation here (https://github.com/IkePCampbell/GoGreen) <br/>
+-> Schedule a daily run with Jenkins <br/>
