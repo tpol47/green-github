@@ -12,5 +12,10 @@ Python script that performs git operations. Schedule a daily run of this script 
 
 # Automation Options
 **Windows Task Scheduler** <br/>
+- 
+
 **Windows PowerShell** <br/>
+-
+
 **Jenkins** <br/>
+-
