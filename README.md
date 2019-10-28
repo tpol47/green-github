@@ -11,11 +11,6 @@ Python script that performs git operations. Schedule a daily run of this script 
 2) Make a random number of commits per run <br/>
 
 # Automation Options
-**Windows Task Scheduler:** <br/>
-- Schedule a daily run with task scheduler
-
-**Windows PowerShell:** <br/>
-- Schedule a daily run with a PowerShell script
-
-**Jenkins:** <br/>
-- Schedule a daily run with Jenkins
+**Windows Task Scheduler** <br/>
+**Windows PowerShell** <br/>
+**Jenkins** <br/>
