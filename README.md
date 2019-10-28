@@ -12,8 +12,8 @@ Python script that performs git operations. Schedule a daily run of this script 
 
 # Automation Options
 **Windows Task Scheduler:** <br/>
--> Schedule a daily run with task scheduler <br/>
+- Schedule a daily run with task scheduler <br/>
 **Windows PowerShell:** <br/>
--> Schedule a daily run with a PowerShell script <br/>
+- Schedule a daily run with a PowerShell script <br/>
 **Jenkins:** <br/>
--> Schedule a daily run with Jenkins <br/>
+- Schedule a daily run with Jenkins <br/>
