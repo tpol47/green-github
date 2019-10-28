@@ -1,5 +1,5 @@
 # GreenGitHub
-Python script that performs git operations. Schedule a daily run of this script to make your contribution breakdown a field of green (repository containing script must be public).
+Python script that performs git operations. Schedule a daily run of this script to make your contribution breakdown a field of green (repository containing script must be public & device running script must have internet connection).
 
 **Process:** <br/>
 1) Discards all remote changes and pulls from master <br/>
@@ -11,12 +11,9 @@ Python script that performs git operations. Schedule a daily run of this script 
 2) Make a random number of commits per run <br/>
 
 # Automation Options
-Windows Task Scheduler <br/>
--> More Info Soon <br/>
-Windows Power Shell <br/>
--> More Info Soon <br/>
-Jenkins Blue Ocean <br/>
--> More Info Soon <br/>
-
-# To Use
-Coming Soon...
+**Windows Task Scheduler:** <br/>
+-> Schedule a daily run with task scheduler <br/>
+**Windows PowerShell:** <br/>
+-> Schedule a daily run with a PowerShell script <br/>
+**Jenkins:** <br/>
+-> See implementation here (https://github.com/IkePCampbell/GoGreen) <br/>
