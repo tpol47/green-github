@@ -1,5 +1,5 @@
 # GreenGitHub
-Python script that performs git operations. Schedule a daily run of this script to make your contribution breakdown a field of green (repository containing script must be public & device running script must have internet connection).
+Python script that performs git operations. Schedule a daily run of this script to make your contribution breakdown a field of green (device running script must have internet connection).
 
 **Process:** <br/>
 1) Discards all remote changes and pulls from master <br/>
