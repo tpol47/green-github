@@ -7,7 +7,7 @@ import sys
 
 def main():
     # path to file
-    file_path = os.path.realpath("text.txt");
+    file_path = os.path.realpath("text.txt")
 
     # Set max to one for a single commit on each run or 
     # randomly generate a max number of commits each run
